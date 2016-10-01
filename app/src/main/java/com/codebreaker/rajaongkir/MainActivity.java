@@ -33,7 +33,7 @@ import cz.msebera.android.httpclient.Header;
 public class MainActivity extends AppCompatActivity {
 
     final String BASE_URL = "http://api.rajaongkir.com/starter/cost";
-    final String API_KEY = "89e21c58e447b2c15c12ea99356fc229";
+    final String API_KEY = "KEY ANDA";
     EditText etBerat;
     TextView tvHarga;
 
@@ -120,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(MainActivity.this, "Berat harus di atas 0", Toast.LENGTH_SHORT).show();
                     } else {
                         //ceOngkir(idAsal, idTujuan, sBerat, sKurir);
-                        ceOngkir(idAsal, idTujuan, sBerat, "jne");
+                        ceOngkir(idAsal, idTujuan, sBerat, sKurir);
                     }
 
                 }
